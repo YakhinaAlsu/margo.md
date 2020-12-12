@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background-color: #E5E5E5;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+.babag {
+    display: flex;
+}
+.header .logo {
+    padding-left: 125px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 900;
+}
+
+
+.header .menu ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.header .menu ul li {
+    padding: 0px 30px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+   
+}
+
+
+.menu li a {
+    text-decoration: none;
+}
+.menu li a:hover {
+color: #222222;
+opacity: 0.3;
+}
+.menu li a:visited {
+    color: #222222;
+}
+.header .burger {
+    padding-right: 125px;
+}
+
+.hr1 {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+}
+
+.hr2 {
+    width: 10px;
+    height: 3px;
+    background-color: black;
+}
+
+.text {
+    padding-top: 150px;
+    padding-left: 125px;
+}
+
+.container .text h4 {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.container .text h2 {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1px;
+
+}
+
+.container .text p {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    line-height: 28px;
+    color: #222222;
+    opacity: 0.7;
+
+}
+
+.container .btn {
+    display: flex;
+    padding-left: 125px;
+    padding-top: 50px;
+}
+
+.btn1 button {
+    background: #4737FF;
+    border: none;
+    width: 160px;
+    height: 60px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.svg {
+    display: flex;
+    padding: 17px 30px;
+}
+
+.btn2 {
+    padding-left:125px;
+    display: flex;
+    padding-top:300px;
+}
+.btn2 button {
+    width: 50px;
+    height: 55px;
+    background-color: #E5E5E5;
+    font-family: Fira Sans;
+    border: none;
+font-style: normal;
+font-weight: 500;
+font-size: 17.5475px;
+line-height: 26px;
+text-align: center;
+}
+.btn2 button:hover{
+    background: #F96241;
+    transition: 1s;
+}
+.btn2 .one {
+    padding-right: 30px;
+}
+.btn2 .two {
+    padding-right: 30px;
+}
+.btn2 .three {
+    padding-right: 30px;
+}
+.container2 {
+    padding-top: 50px;
+}
